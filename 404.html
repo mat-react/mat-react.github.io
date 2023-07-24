@@ -3,9 +3,11 @@
   <head>
     <script>
       // Redirect all 404 errors to index.html
-      var redirectUrl = window.location.href.replace(/\/404\.html$/, '/index.html');
-      console.log(redirectUrl);
-    //   window.location.replace(redirectUrl);
+        const currentPath = window.location.pathname.slice(1);
+        window.location.replace("/?"+currentPath);
+
+        console.log(currentPath);
+
     </script>
   </head>
   <body>
