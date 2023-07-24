@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script>
+      // Redirect all 404 errors to index.html
+      var redirectUrl = window.location.href.replace(/\/404\.html$/, '/index.html');
+      window.location.replace(redirectUrl);
+    </script>
+  </head>
+  <body>
+    <p>Redirecting to the homepage...</p>
+  </body>
+</html>
