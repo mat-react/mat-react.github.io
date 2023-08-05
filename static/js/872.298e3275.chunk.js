@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkmatt_react_v2=self.webpackChunkmatt_react_v2||[]).push([[872],{5872:function(a,e,t){t(2791);e.Z=t.p+"static/media/user-02.a2bf2097de13134ad1ee4fc85a19aead.svg"}}]);
+//# sourceMappingURL=872.298e3275.chunk.js.map
